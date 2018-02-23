@@ -1,0 +1,10 @@
+.NewStrategyButton {
+  background: #0072ac;
+  text-align: center;
+  color: #ffffff;
+  display: block;
+  padding: 1rem 3rem;
+  width: 100%;
+  border: 0;
+  font-size: 1rem;
+}
