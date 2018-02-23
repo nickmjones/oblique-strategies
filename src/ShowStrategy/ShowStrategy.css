@@ -1,0 +1,10 @@
+.ShowStrategy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ef3f3f;
+  height: 90vh;
+  border: 1px solid blue;
+  padding: 2rem;
+  text-align: center;
+}
