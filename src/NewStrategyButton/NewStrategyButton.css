@@ -1,6 +1,5 @@
-
 .NewStrategyButton {
-  background: #0072ac url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
+  background: #847996 url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
   text-align: center;
   color: #ffffff;
   position: absolute;
@@ -13,11 +12,12 @@
   font-size: 1rem;
   text-align: center;
   line-height: 0.5rem;
-  transition: all 0.20s ease-in-out;
+  transition: all 0.10s ease-in-out;
 }
+.NewStrategyButton:hover,
 .NewStrategyButton:active {
-  background: #06558b url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
-  transform: translateY(4px);
+  background: #5E4F75 url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
+  transform: translateY(2px);
 }
 .NewStrategyButton:focus {
   outline: 0;

@@ -12,7 +12,7 @@ class ShowStrategy extends Component {
     var strategy = Strategies[ Math.floor(Math.random()*Strategies.length) ];
     return (
       <div className="ShowStrategy">
-        <Fade><h2 className="strategy">{ strategy }</h2></Fade>
+        <Fade><h3 className="strategy">{ strategy }</h3></Fade>
       </div>
     );
   };

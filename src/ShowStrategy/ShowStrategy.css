@@ -2,10 +2,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 90vh;
+  height: 85vh;
   padding: 0 2rem;
   text-align: center;
+  margin: 1rem;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0 3px 10px #d7d7d7;
 }
-.ShowStrategy h2 {
+.ShowStrategy h3 {
   line-height: 1;
 }
