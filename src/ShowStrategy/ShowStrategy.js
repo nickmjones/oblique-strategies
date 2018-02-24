@@ -1,19 +1,22 @@
 import React, { Component } from 'react';
 import Strategies from './Strategies.js';
+import Fade from 'react-reveal/Fade';
 import './ShowStrategy.css';
 
 class ShowStrategy extends Component {
   constructor(props) {
     super(props);
+    this.state = {}
   }
-  render(){
+  render() {
     var strategy = Strategies[ Math.floor(Math.random()*Strategies.length) ];
     return (
       <div className="ShowStrategy">
-        <h1 className="strategy">{ strategy }</h1>
+        <Fade><h2 className="strategy">{ strategy }</h2></Fade>
       </div>
     );
-  }
-}
+  };
+  
+};
 
 export default ShowStrategy;

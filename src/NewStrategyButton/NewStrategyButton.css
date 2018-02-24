@@ -1,10 +1,25 @@
+
 .NewStrategyButton {
-  background: #0072ac;
+  background: #0072ac url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
   text-align: center;
   color: #ffffff;
-  display: block;
-  padding: 1rem 3rem;
-  width: 100%;
+  position: absolute;
+  width: 3rem;
+  height: 3rem;
+  right: 1rem;
+  bottom: 1rem;
+  border-radius: 100px;
   border: 0;
   font-size: 1rem;
+  text-align: center;
+  line-height: 0.5rem;
+  transition: all 0.20s ease-in-out;
+}
+.NewStrategyButton:active {
+  background: #06558b url('../images/ic_cached_white_24dp_1x.png') center center no-repeat;
+  transform: translateY(4px);
+}
+.NewStrategyButton:focus {
+  outline: 0;
+  border: 0;
 }
