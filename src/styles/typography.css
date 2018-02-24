@@ -2,7 +2,8 @@
 
 h1, h2, h3, h4, h5 {
   font-weight: 300;
-  color: #444;
+  color: #666;
+  font-family: system, -apple-system, BlinkMacSystemFont, "Helvetica Neue", "Lucida Grande";
 }
 
 h1 { font-size: 4.209rem; }
